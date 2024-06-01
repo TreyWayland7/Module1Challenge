@@ -1,75 +1,92 @@
+/* Border Box includes the padding and border in the elements total width
+This is applied to every element */
 * {
     box-sizing: border-box;
     margin: 0;
 }
 
+/* Applies styles to the body */
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* The background of the webpage */
+
 }
 
+/* Styles the header at the top of the page */
 .header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    padding: 20px; /* Gives the header padding */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Set the font in the header */
+    background-color: #2a607c; /* Gives the header a blue background color*/
+    color: #ffffff; /* Gives the header a white font*/
+    /* These styles are applied to H1 elements in the header class*/
     & h1{
-        display: inline-block;
-        font-size: 48px;
+        display: inline-block; /* Keeps the Title and Links inline with eachother */
+        font-size: 48px; /* Set the font size of the header elements within the header id to 48 px. */
+        /* These styles are applied to the seo class within H1 elements in the header class*/
         & .seo{
-            color: #d9dcd6;
+            color: #d9dcd6;  /* Set the font color */
         }
     }
 }
 
+/* Applies styles to the links at the top right */
 .header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    padding-top: 15px; /* Adds top padding to the links */
+    margin-right: 20px; /* Adds right margin to the links */
+    float: right; /* sets the links to the right */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Sets the Font for the links */
+    font-size: 20px; /* sets the font size to 20px for the links */
+    /* Applies styles to the unordered element in the header class + div */
     & ul{
-        list-style-type: none;
+        list-style-type: none; /* removes the bulltes in the list */
         & li{
-            display: inline-block;
-            margin-left: 25px;
+            display: inline-block; /* keeps the list items horizontal */
+            margin-left: 25px; /* gives list items a left margin */
+            
         }
     }
 }
 
+/* Applies styles to the links */
 a {
-    color: #ffffff;
-    text-decoration: none;
+    color: #ffffff; /* Makes the font color of the links white */
+    text-decoration: none; /* Removes the underline for the links */
 }
 
+/* Applies styles to the paragraph elements */
 p {
-    font-size: 16px;
+    font-size: 16px; /* Makes the font size 16 px */
 }
 
+/* Applies styles to the hero class */
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    height: 800px; /* Gives the image a height of 800 px */
+    width: 100%; /* Gives the image a width to take up the entire container it fits in */
+    margin-bottom: 25px; /* Gives the image margin bottom*/
+    background-image: url("../images/digital-marketing-meeting.jpg"); /* The url for the image*/
+    background-size: cover; /* fits the image to cover*/
+    background-position: center; /* centers the image*/
 }
 
+/* Applies styles to float left class */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Applies styles to float right class */
 .float-right {
     float: right;
     margin-right: 25px;
 }
 
+/* Applies styles to content class */
 .content {
-    width: 75%;
+    width: 75%; /* makes the width 75% of the container */
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 20px; /* creates a left margin of 20px */
 }
 
+/* Applies styles to benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -77,50 +94,58 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Sets Font Style*/
+    background-color: #2589bd; /* Sets background color*/
 }
 
+/* Applies styles to benefit-lead, benefit-brand, and benefit-cost classes */
 .benefit-lead, .benefit-brand, .benefit-cost{
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #ffffff;  /* Gives a white font*/
 }
 
+/* Applies styles to benefit-lead h3, benefit-brand h3, benefit-cost h3 classes */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Applies styles to benefit-lead img, benefit-brand img, benefit-cost img classes */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Applies styles to search-engine-optimization, online-reputation-management, social-media-marketingclasses */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    margin-bottom: 20px; /* sets the bottom margin of the boxes*/
+    padding: 50px; /* sets the padding of the boxes*/
+    height: 300px; /* sets the height of the boxes*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Sets Font Style*/
+    background-color: #0072bb; /* Sets background color*/
+    color: #ffffff;  /* Gives a white font*/
 }
 
+/* Applies styles to search-engine-optimization img, online-reputation-management img, social-media-marketing img classes */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Applies styles to search-engine-optimization h2, online-reputation-management h2, social-media-marketing h2 classes */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 36px; /* Changes the font size to 36 px */
 }
 
+/* Applies styles to footer class */
 .footer {
-    padding: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    padding: 30px; /* Gives the footer padding */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Sets Font Style*/
+    text-align: center; /* Centers the footer text */
+    /* Applies styles to H2 elements within the footer class */        
     & h2 {
-        font-size: 20px;
+        font-size: 20px; /* Changes the font size to 20 px */
     }
 }
 
