@@ -33,7 +33,7 @@ Please refer to the LICENSE in the repo.
 
 ## Screenshot
 
-
+![01-html-css-git-homework-demo](https://github.com/TreyWayland7/Module1Challenge/assets/168800234/250fa203-9ca6-4330-bc45-bc94a8ad7bb6)
 
 
 
